@@ -21,7 +21,7 @@ const TechSelectOptions = ({ getTechs, tech: { techs, loading } }) => {
   );
 };
 
-TechSelectOptions.PropTypes = {
+TechSelectOptions.propTypes = {
   getTechs: PropTypes.func.isRequired,
   tech: PropTypes.object.isRequired,
 };
